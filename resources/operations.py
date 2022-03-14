@@ -121,7 +121,7 @@ class Operations():
         shape = Shape("Divide",Operations.DIVIDE)
     else:
         shape = Shape("Divide","You cannot divide these numbers!")
-        print(shape.shape())
+    print(shape.shape())
  @Decorators.out       
  @Decorators.src(methods=methods)
  @Decorators.control          
